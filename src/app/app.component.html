@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <h2>Basic Request</h2>
+<!-- <button type="button" (click)="fetchData()">Make Request</button> -->
+
+
+<p>Data Obtained is: {{ arr | json }}</p>
+
+
+<div *ngFor="let d of arr">
+id =  {{d.id}}<br>
+Name =  {{d.name}}
+</div>
+
+<!-- <div *ngFor="let d of arr">
+</div> -->
